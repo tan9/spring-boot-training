@@ -13,11 +13,18 @@
         <version>1.3.5.RELEASE</version>
     </parent>
 
-    <!-- Add typical dependencies for a web application -->
     <dependencies>
+        <!-- Add typical dependencies for a web application -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Add devTools and mark it as optional -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
