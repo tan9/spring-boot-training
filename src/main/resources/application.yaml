@@ -3,3 +3,5 @@ server:
   port: 5566
   error:
     path: /oops
+management:
+  port: 2266
