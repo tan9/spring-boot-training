@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+body {
+  font-family: sans-serif;
+  background-color: thistle;
+}
+
+h1 {
+  color: purple;
+  font-size: 20rem;
+}
