@@ -5,6 +5,10 @@
     <groupId>com.cht</groupId>
     <artifactId>inception</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <!-- Inherit defaults from Spring Boot -->
     <parent>
