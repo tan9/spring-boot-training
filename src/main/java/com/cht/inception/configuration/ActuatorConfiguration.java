@@ -10,6 +10,6 @@ public class ActuatorConfiguration {
 
 	@Bean
 	public HealthIndicator holyUpHealthIndicator() {
-		return () -> Health.up().build();
+		return () -> Health.up().withDetail("hp", 10000).build();
 	}
 }
